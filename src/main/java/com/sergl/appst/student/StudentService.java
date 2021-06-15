@@ -58,8 +58,7 @@ public class StudentService {
 
             student.setEmail(studentUpdate.getEmail());
         }
-
-
+        
         if (studentUpdate.getDob()!= null &&
         !Objects.equals(studentUpdate.getDob(),student.getDob()))
             student.setDob(studentUpdate.getDob());
